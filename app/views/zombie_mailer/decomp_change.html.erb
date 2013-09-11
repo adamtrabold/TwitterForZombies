@@ -1,0 +1,7 @@
+<h1>Greetings <%= @zombie.name %>,</h1>
+
+<p>Your decomposition state is now <%= zombie.decomp %> <!-- and your last tweet was <%= @last_tweet.body %> --></p>
+
+<p>Good luck!</p>
+
+<%= link_to "View Yourself", zombie_url(@zombie) %>
